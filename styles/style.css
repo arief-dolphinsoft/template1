@@ -176,7 +176,7 @@ img {
 .second-section-current-range-value-label {
   position: absolute;
   top: -0.5vw;
-  width: 4.5vw;
+  min-width: 5vw;
   color: #134286;
   font-size: 1.3vw;
   text-align: center;
@@ -217,6 +217,7 @@ img {
   font-size: 1.6vw;
   word-spacing: -0.304vw;
   font-family: "Bold";
+  line-height: 1;
 }
 
 .second-section-range-value span {
