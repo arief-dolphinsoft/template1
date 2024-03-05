@@ -81,7 +81,7 @@ img {
   font-family: "Bold";
   font-size: 3.8vw;
   color: white;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .right-container-subtitle {
@@ -221,6 +221,7 @@ img {
 }
 
 .second-section-range-value span {
+  font-family: "Bold";
   font-size: 1.1vw;
 }
 
@@ -566,5 +567,9 @@ img {
     font-size: 6vw;
     border-radius: 2vw;
     line-height: 1.6;
+  }
+
+  .footer-link-btn:hover {
+    text-decoration: none;
   }
 }
