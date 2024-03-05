@@ -147,9 +147,9 @@ img {
   line-height: 1.3;
 }
 
-.second-section-text {
+.second-section-subtitle {
   color: #134286;
-  font-size: 1.6vw;
+  font-size: 1.1vw;
 }
 
 .second-section-range-container {
@@ -354,5 +354,217 @@ img {
 
   .desktop {
     display: none;
+  }
+
+  .main-container {
+    height: 100%;
+  }
+
+  .main-content-container {
+    flex-direction: column;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  .logo {
+    left: 2.188vw;
+    top: 3.281vw;
+    right: unset;
+    height: 11.094vw;
+    width: 11.094vw;
+  }
+
+  .right-container-image {
+    content: url(../assets/mobile_main_image.jpg);
+  }
+
+  .right-container-text-container {
+    top: 17.5vw;
+  }
+
+  .right-container-title {
+    font-size: 7.8vw;
+  }
+
+  .right-container-subtitle {
+    font-size: 4.55vw;
+  }
+
+  .left-container {
+    width: 100%;
+    position: relative;
+  }
+
+  .first-section {
+    position: absolute;
+    top: -46vw;
+    background-color: transparent;
+    height: 44vw;
+    gap: 2.3vw;
+    padding: 1.51vw 3.25vw 0 3.25vw;
+  }
+
+  .first-section-image {
+    width: 29.844vw;
+    height: 20.781vw;
+  }
+
+  .first-section-title {
+    font-size: 6vw;
+  }
+
+  .first-section-text {
+    font-size: 4.5vw;
+  }
+
+  .second-section {
+    padding: 2.813vw 0;
+    gap: 2.781vw;
+  }
+
+  .second-section-title {
+    font-size: 5.3vw;
+  }
+
+  .second-section-subtitle {
+    font-size: 3.5vw;
+  }
+
+  .second-section-range-container {
+    width: 90%;
+    height: 13.125vw;
+    border-radius: 10vw;
+    gap: 0.8vw;
+  }
+
+  .second-section-range-value {
+    font-size: 5.6vw;
+    word-spacing: -1.504vw;
+  }
+
+  .second-section-range-value span {
+    font-size: 3.5vw;
+  }
+
+  .second-section-range {
+    height: 1vw;
+  }
+
+  .second-section-range::-webkit-slider-thumb {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .second-section-range::-moz-range-thumb {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .second-section-current-range-value-label {
+    font-size: 3vw;
+  }
+
+  .second-section-image-caption-containers {
+    margin-top: 6.875vw;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: unset;
+    column-gap: 7.156vw;
+    row-gap: 2.563vw;
+    justify-content: center;
+  }
+
+  .second-section-image-caption-container {
+    gap: 1.5vw;
+  }
+
+  .second-section-image {
+    width: 29.844vw;
+    height: 22.406vw;
+  }
+
+  .second-section-text {
+    line-height: 1;
+    font-size: 3vw;
+  }
+
+  .third-section {
+    padding: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .third-section-title {
+    color: white;
+    background-color: #134286;
+    width: 100%;
+    text-align: center;
+    font-size: 4.5vw;
+    line-height: 1.6;
+  }
+
+  .third-section-image-caption-containers {
+    width: 100%;
+    position: relative;
+    flex-direction: column-reverse;
+    height: 72.75vw;
+  }
+
+  .third-section-diamond {
+    width: 29vw;
+    height: 29vw;
+    border-radius: 5vw;
+    position: absolute;
+  }
+
+  .third-section-diamond:nth-child(1) {
+    top: 10vw;
+    right: 15vw;
+  }
+
+  .third-section-diamond:nth-child(2) {
+    top: 35vw;
+  }
+
+  .third-section-diamond:nth-child(3) {
+    top: 10vw;
+    left: 15vw;
+  }
+
+  .third-section-image-caption-container {
+    gap: 1vw;
+  }
+
+  .third-section-image {
+    width: 11vw;
+    height: 11vw;
+  }
+
+  .third-section-image-caption-title {
+    font-size: 3.5vw;
+    line-height: 1.2;
+  }
+
+  .third-section-image-caption-text {
+    font-size: 2.45vw;
+    line-height: 1.2;
+  }
+
+  .footer-container {
+    padding: 0 5.625vw 5.625vw 5.625vw;
+    flex-direction: column-reverse;
+    gap: 3.5vw;
+  }
+
+  .footer-text {
+    font-size: 2.6vw;
+  }
+
+  .footer-link-btn {
+    font-size: 6vw;
+    border-radius: 2vw;
+    line-height: 1.6;
   }
 }
